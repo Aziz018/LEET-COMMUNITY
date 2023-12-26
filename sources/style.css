@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Space Mono', 'Share Tech Mono';
+}
+
+header {
+    margin: 0 300px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+    height: 67px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li {
+    list-style: none;
+    padding-right: 40px;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header button {
+    background-color: #fff;
+    padding: 20px 80px;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+.home {
+    margin: 80px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home .a1 {
+    margin-right: 60px;
+}
+
+.home .a1 h1 {
+    font-size: 50px;
+}
+
+.home .a1 p {
+    font-size: 40px;
+}
+
+.home .a2 {
+    width: 50%;
+}
+
+.home .a2 p {
+    font-size: 17px;
+}
+
+.home .a2 button {
+    margin-top: 20px;
+    background-color: #000000;
+    padding: 20px 80px;
+    color: #fff;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+.scroll {
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #000000;
+}
+  
+  .content h1{
+    display: inline-block;
+    padding: 30px;
+    font-size: 40px;
+    color: #fff;
+    animation: scroll 8s linear infinite;
+}
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+}
+
+.ma3reftch {
+    margin: 60px auto;
+    text-align: center;
+}
+
+.ma3reftch .container {
+    justify-content: center;
+}
+
+.ma3reftch .ana_class {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.ma3reftch h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.ma3reftch button {
+    margin-top: 20px;
+    background-color: #000000;
+    padding: 20px 80px;
+    color: #fff;
+    border-radius: 60px;
+    font-size: 20px;
+}
+
+.ma3reftch video {
+    margin-top: 30px;
+    width: 1000px;
+    border-radius: 20px;
+}
+
+.section {
+    position: relative;  
+    margin: 0 auto;
+}
+
+.section h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.section .p {
+    margin: 0 430px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section .spectial {
+    /* text-align: center; */
+    margin: 0 auto;
+
+}
+
+.section .spectial {
+    display: flex;
+    /* position: relative; */
+    justify-content: space-evenly;
+
+    /* grid-template-columns: repeat(auto-fill, minmax(800px, 1fr)); */
+}
+
+.section .spectial div {
+    /* position: relative; */
+    align-items: center;
+}
+
+.section .spectial div .container {
+    max-width: 600px;
+    padding: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-bottom: 50px;
+    border-radius: 30px;
+    gap: 40px;
+    height: 350px;
+    /* flex-direction: column; */
+}
+
+.section .spectial div .container h1 {
+    margin:  0;
+    font-size: 30px;
+    text-align: left;
+}
+
+.section .spectial div .container p {
+    padding: 40px 0;
+
+}
+
+.section .spectial div .container button {
+    display: flex;
+    width: max-content;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 50px;
+}
